@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Country-Condition Hiddenness",
+  "slug": "ctgov-country-condition-hiddenness",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which disease-country cells look quietest on ClinicalTrials.gov once older closed interventional studies are split simultaneously by condition family and named study location? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and exploded named-country involvement within selected condition families. The project compares two-year no-results rates, ghost-protocol rates, and visible shares for oncology, cardiovascular, and metabolic studies across country-condition cells with at least 400 studies. Oncology studies involving China reached 79.0 percent no results versus 52.6 percent for oncology studies involving the United States. Cardiovascular studies involving Egypt reached 95.9 percent no results, while metabolic studies involving China reached 78.9 percent and Denmark 79.6 percent. Disease and geography therefore interact rather than add independently, because the same condition family looks materially different once specific country footprints are named inside the same nominal therapeutic area. Country-condition cells reflect recorded study locations rather than country-specific enrollment shares, sponsor domicile, or national reporting mandates.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which disease-country cells look quietest on ClinicalTrials.gov once older closed interventional studies are split simultaneously by condition family and named study location?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and exploded named-country involvement within selected condition families."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, and visible shares for oncology, cardiovascular, and metabolic studies across country-condition cells with at least 400 studies."
+    },
+    {
+      "role": "Primary result",
+      "text": "Oncology studies involving China reached 79.0 percent no results versus 52.6 percent for oncology studies involving the United States."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Cardiovascular studies involving Egypt reached 95.9 percent no results, while metabolic studies involving China reached 78.9 percent and Denmark 79.6 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Disease and geography therefore interact rather than add independently, because the same condition family looks materially different once specific country footprints are named inside the same nominal therapeutic area."
+    },
+    {
+      "role": "Boundary",
+      "text": "Country-condition cells reflect recorded study locations rather than country-specific enrollment shares, sponsor domicile, or national reporting mandates."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Country-Condition Hiddenness dashboard",
+    "data": "249,507 eligible older closed interventional studies exploded into named-country condition-family cells",
+    "code": "https://github.com/mahmood726-cyber/ctgov-country-condition-hiddenness",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across selected country-by-condition cells among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
